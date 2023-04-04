@@ -28,3 +28,7 @@ bytecode = compiled_sol["contracts"]["SimpleStorage.sol"]["SimpleStorage"]["evm"
 
 # get abi
 abi = compiled_sol["contracts"]["SimpleStorage.sol"]["SimpleStorage"]["abi"]
+
+# for connection to ganache
+w3 = Web3(Web3.HTTPProvider("http://0.0.0.0:7545"))
+chain_id = 5777
