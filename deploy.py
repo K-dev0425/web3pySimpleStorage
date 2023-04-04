@@ -1,5 +1,6 @@
 from solcx import compile_standard, install_solc
 import json
+from web3 import Web3
 
 with open("./SimpleStorage.sol", "r") as file:
     simple_storage_file = file.read()
